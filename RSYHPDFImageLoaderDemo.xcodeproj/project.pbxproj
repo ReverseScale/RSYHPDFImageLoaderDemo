@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34787B2B1F3D50D5009ED25C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B2A1F3D50D5009ED25C /* main.m */; };
+		34787B2E1F3D50D5009ED25C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B2D1F3D50D5009ED25C /* AppDelegate.m */; };
+		34787B311F3D50D5009ED25C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B301F3D50D5009ED25C /* ViewController.m */; };
+		34787B341F3D50D5009ED25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787B321F3D50D5009ED25C /* Main.storyboard */; };
+		34787B361F3D50D5009ED25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34787B351F3D50D5009ED25C /* Assets.xcassets */; };
+		34787B391F3D50D5009ED25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787B371F3D50D5009ED25C /* LaunchScreen.storyboard */; };
+		34787B441F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B431F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.m */; };
+		34787B4F1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B4E1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.m */; };
+		34787B6C1F3D5D6F009ED25C /* bundle-pdf-test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 34787B6B1F3D5D6F009ED25C /* bundle-pdf-test.pdf */; };
+		34787B6F1F3D5F7F009ED25C /* UIImage+Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B6E1F3D5F7F009ED25C /* UIImage+Vector.m */; };
+		34787B731F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787B721F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.m */; };
+		AF29034AF0D5107FEDE873C0 /* libPods-RSYHPDFImageLoaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 274FAE9DB1D3BF072115AE98 /* libPods-RSYHPDFImageLoaderDemo.a */; };
+		B057275D486A974E5E069E14 /* libPods-RSYHPDFImageLoaderDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8903BD277212D4BB2715B5A7 /* libPods-RSYHPDFImageLoaderDemoUITests.a */; };
+		D83E0733072CA558A7070B69 /* libPods-RSYHPDFImageLoaderDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0CA6021CF7115BE610F01 /* libPods-RSYHPDFImageLoaderDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34787B401F3D50D5009ED25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34787B1E1F3D50D5009ED25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34787B251F3D50D5009ED25C;
+			remoteInfo = RSYHPDFImageLoaderDemo;
+		};
+		34787B4B1F3D50D5009ED25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34787B1E1F3D50D5009ED25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34787B251F3D50D5009ED25C;
+			remoteInfo = RSYHPDFImageLoaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274FAE9DB1D3BF072115AE98 /* libPods-RSYHPDFImageLoaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSYHPDFImageLoaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787B261F3D50D5009ED25C /* RSYHPDFImageLoaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSYHPDFImageLoaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787B2A1F3D50D5009ED25C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34787B2C1F3D50D5009ED25C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34787B2D1F3D50D5009ED25C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34787B2F1F3D50D5009ED25C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34787B301F3D50D5009ED25C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34787B331F3D50D5009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34787B351F3D50D5009ED25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34787B381F3D50D5009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34787B3A1F3D50D5009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787B3F1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSYHPDFImageLoaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787B431F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSYHPDFImageLoaderDemoTests.m; sourceTree = "<group>"; };
+		34787B451F3D50D5009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787B4A1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSYHPDFImageLoaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787B4E1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSYHPDFImageLoaderDemoUITests.m; sourceTree = "<group>"; };
+		34787B501F3D50D5009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787B6B1F3D5D6F009ED25C /* bundle-pdf-test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "bundle-pdf-test.pdf"; sourceTree = "<group>"; };
+		34787B6D1F3D5F7F009ED25C /* UIImage+Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Vector.h"; sourceTree = "<group>"; };
+		34787B6E1F3D5F7F009ED25C /* UIImage+Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Vector.m"; sourceTree = "<group>"; };
+		34787B711F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		34787B721F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		36009974B598C0303E826D11 /* Pods-RSYHPDFImageLoaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemo/Pods-RSYHPDFImageLoaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5314724F05C469DD47AC6CA0 /* Pods-RSYHPDFImageLoaderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoTests/Pods-RSYHPDFImageLoaderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		64215CC705CFDA59755A8148 /* Pods-RSYHPDFImageLoaderDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoUITests/Pods-RSYHPDFImageLoaderDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8903BD277212D4BB2715B5A7 /* libPods-RSYHPDFImageLoaderDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSYHPDFImageLoaderDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98515F81103FD4B3B61CDBD5 /* Pods-RSYHPDFImageLoaderDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoUITests/Pods-RSYHPDFImageLoaderDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A2508035D18409C9980AF46 /* Pods-RSYHPDFImageLoaderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoTests/Pods-RSYHPDFImageLoaderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A2320CD923744F7F9F2867 /* Pods-RSYHPDFImageLoaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSYHPDFImageLoaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemo/Pods-RSYHPDFImageLoaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEA0CA6021CF7115BE610F01 /* libPods-RSYHPDFImageLoaderDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSYHPDFImageLoaderDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34787B231F3D50D5009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF29034AF0D5107FEDE873C0 /* libPods-RSYHPDFImageLoaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B3C1F3D50D5009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83E0733072CA558A7070B69 /* libPods-RSYHPDFImageLoaderDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B471F3D50D5009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B057275D486A974E5E069E14 /* libPods-RSYHPDFImageLoaderDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34787B1D1F3D50D5009ED25C = {
+			isa = PBXGroup;
+			children = (
+				34787B281F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */,
+				34787B421F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests */,
+				34787B4D1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests */,
+				34787B271F3D50D5009ED25C /* Products */,
+				E8A1D469BF9F42DA73636FEA /* Pods */,
+				5E368E9402CD6F869E3B0CD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34787B271F3D50D5009ED25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34787B261F3D50D5009ED25C /* RSYHPDFImageLoaderDemo.app */,
+				34787B3F1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.xctest */,
+				34787B4A1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34787B281F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34787B701F3D7FB5009ED25C /* FDFullscreenPopGesture */,
+				34787B6D1F3D5F7F009ED25C /* UIImage+Vector.h */,
+				34787B6E1F3D5F7F009ED25C /* UIImage+Vector.m */,
+				34787B6B1F3D5D6F009ED25C /* bundle-pdf-test.pdf */,
+				34787B2C1F3D50D5009ED25C /* AppDelegate.h */,
+				34787B2D1F3D50D5009ED25C /* AppDelegate.m */,
+				34787B2F1F3D50D5009ED25C /* ViewController.h */,
+				34787B301F3D50D5009ED25C /* ViewController.m */,
+				34787B321F3D50D5009ED25C /* Main.storyboard */,
+				34787B351F3D50D5009ED25C /* Assets.xcassets */,
+				34787B371F3D50D5009ED25C /* LaunchScreen.storyboard */,
+				34787B3A1F3D50D5009ED25C /* Info.plist */,
+				34787B291F3D50D5009ED25C /* Supporting Files */,
+			);
+			path = RSYHPDFImageLoaderDemo;
+			sourceTree = "<group>";
+		};
+		34787B291F3D50D5009ED25C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34787B2A1F3D50D5009ED25C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34787B421F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34787B431F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.m */,
+				34787B451F3D50D5009ED25C /* Info.plist */,
+			);
+			path = RSYHPDFImageLoaderDemoTests;
+			sourceTree = "<group>";
+		};
+		34787B4D1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34787B4E1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.m */,
+				34787B501F3D50D5009ED25C /* Info.plist */,
+			);
+			path = RSYHPDFImageLoaderDemoUITests;
+			sourceTree = "<group>";
+		};
+		34787B701F3D7FB5009ED25C /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				34787B711F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.h */,
+				34787B721F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		5E368E9402CD6F869E3B0CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274FAE9DB1D3BF072115AE98 /* libPods-RSYHPDFImageLoaderDemo.a */,
+				DEA0CA6021CF7115BE610F01 /* libPods-RSYHPDFImageLoaderDemoTests.a */,
+				8903BD277212D4BB2715B5A7 /* libPods-RSYHPDFImageLoaderDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A1D469BF9F42DA73636FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36009974B598C0303E826D11 /* Pods-RSYHPDFImageLoaderDemo.debug.xcconfig */,
+				D1A2320CD923744F7F9F2867 /* Pods-RSYHPDFImageLoaderDemo.release.xcconfig */,
+				9A2508035D18409C9980AF46 /* Pods-RSYHPDFImageLoaderDemoTests.debug.xcconfig */,
+				5314724F05C469DD47AC6CA0 /* Pods-RSYHPDFImageLoaderDemoTests.release.xcconfig */,
+				64215CC705CFDA59755A8148 /* Pods-RSYHPDFImageLoaderDemoUITests.debug.xcconfig */,
+				98515F81103FD4B3B61CDBD5 /* Pods-RSYHPDFImageLoaderDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34787B251F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787B531F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemo" */;
+			buildPhases = (
+				B9B15EBC097244A377C1FB07 /* [CP] Check Pods Manifest.lock */,
+				34787B221F3D50D5009ED25C /* Sources */,
+				34787B231F3D50D5009ED25C /* Frameworks */,
+				34787B241F3D50D5009ED25C /* Resources */,
+				B4CDC417EF5466254AE845DB /* [CP] Embed Pods Frameworks */,
+				00FA1BB2C6CED2670A427DE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSYHPDFImageLoaderDemo;
+			productName = RSYHPDFImageLoaderDemo;
+			productReference = 34787B261F3D50D5009ED25C /* RSYHPDFImageLoaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34787B3E1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787B561F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemoTests" */;
+			buildPhases = (
+				65350CAB172E519EB94ECC85 /* [CP] Check Pods Manifest.lock */,
+				34787B3B1F3D50D5009ED25C /* Sources */,
+				34787B3C1F3D50D5009ED25C /* Frameworks */,
+				34787B3D1F3D50D5009ED25C /* Resources */,
+				103A064135F512CA697C5AD1 /* [CP] Embed Pods Frameworks */,
+				3AA73D54E340821FD3BCD27C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34787B411F3D50D5009ED25C /* PBXTargetDependency */,
+			);
+			name = RSYHPDFImageLoaderDemoTests;
+			productName = RSYHPDFImageLoaderDemoTests;
+			productReference = 34787B3F1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34787B491F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787B591F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemoUITests" */;
+			buildPhases = (
+				2087588A3BB6A66F507D9E9A /* [CP] Check Pods Manifest.lock */,
+				34787B461F3D50D5009ED25C /* Sources */,
+				34787B471F3D50D5009ED25C /* Frameworks */,
+				34787B481F3D50D5009ED25C /* Resources */,
+				43FA7B7C503D8B68BC827D6E /* [CP] Embed Pods Frameworks */,
+				B84ACBE1187C5C5E8667B0CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34787B4C1F3D50D5009ED25C /* PBXTargetDependency */,
+			);
+			name = RSYHPDFImageLoaderDemoUITests;
+			productName = RSYHPDFImageLoaderDemoUITests;
+			productReference = 34787B4A1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34787B1E1F3D50D5009ED25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34787B251F3D50D5009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34787B3E1F3D50D5009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34787B251F3D50D5009ED25C;
+					};
+					34787B491F3D50D5009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34787B251F3D50D5009ED25C;
+					};
+				};
+			};
+			buildConfigurationList = 34787B211F3D50D5009ED25C /* Build configuration list for PBXProject "RSYHPDFImageLoaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34787B1D1F3D50D5009ED25C;
+			productRefGroup = 34787B271F3D50D5009ED25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34787B251F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */,
+				34787B3E1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests */,
+				34787B491F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34787B241F3D50D5009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787B391F3D50D5009ED25C /* LaunchScreen.storyboard in Resources */,
+				34787B6C1F3D5D6F009ED25C /* bundle-pdf-test.pdf in Resources */,
+				34787B361F3D50D5009ED25C /* Assets.xcassets in Resources */,
+				34787B341F3D50D5009ED25C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B3D1F3D50D5009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B481F3D50D5009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FA1BB2C6CED2670A427DE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemo/Pods-RSYHPDFImageLoaderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		103A064135F512CA697C5AD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoTests/Pods-RSYHPDFImageLoaderDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2087588A3BB6A66F507D9E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AA73D54E340821FD3BCD27C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoTests/Pods-RSYHPDFImageLoaderDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FA7B7C503D8B68BC827D6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoUITests/Pods-RSYHPDFImageLoaderDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65350CAB172E519EB94ECC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CDC417EF5466254AE845DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemo/Pods-RSYHPDFImageLoaderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84ACBE1187C5C5E8667B0CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSYHPDFImageLoaderDemoUITests/Pods-RSYHPDFImageLoaderDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B15EBC097244A377C1FB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34787B221F3D50D5009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787B731F3D7FB5009ED25C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				34787B311F3D50D5009ED25C /* ViewController.m in Sources */,
+				34787B2E1F3D50D5009ED25C /* AppDelegate.m in Sources */,
+				34787B6F1F3D5F7F009ED25C /* UIImage+Vector.m in Sources */,
+				34787B2B1F3D50D5009ED25C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B3B1F3D50D5009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787B441F3D50D5009ED25C /* RSYHPDFImageLoaderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787B461F3D50D5009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787B4F1F3D50D5009ED25C /* RSYHPDFImageLoaderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34787B411F3D50D5009ED25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34787B251F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */;
+			targetProxy = 34787B401F3D50D5009ED25C /* PBXContainerItemProxy */;
+		};
+		34787B4C1F3D50D5009ED25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34787B251F3D50D5009ED25C /* RSYHPDFImageLoaderDemo */;
+			targetProxy = 34787B4B1F3D50D5009ED25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34787B321F3D50D5009ED25C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34787B331F3D50D5009ED25C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34787B371F3D50D5009ED25C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34787B381F3D50D5009ED25C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34787B511F3D50D5009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34787B521F3D50D5009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34787B541F3D50D5009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36009974B598C0303E826D11 /* Pods-RSYHPDFImageLoaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34787B551F3D50D5009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A2320CD923744F7F9F2867 /* Pods-RSYHPDFImageLoaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34787B571F3D50D5009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2508035D18409C9980AF46 /* Pods-RSYHPDFImageLoaderDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSYHPDFImageLoaderDemo.app/RSYHPDFImageLoaderDemo";
+			};
+			name = Debug;
+		};
+		34787B581F3D50D5009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5314724F05C469DD47AC6CA0 /* Pods-RSYHPDFImageLoaderDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSYHPDFImageLoaderDemo.app/RSYHPDFImageLoaderDemo";
+			};
+			name = Release;
+		};
+		34787B5A1F3D50D5009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64215CC705CFDA59755A8148 /* Pods-RSYHPDFImageLoaderDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSYHPDFImageLoaderDemo;
+			};
+			name = Debug;
+		};
+		34787B5B1F3D50D5009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98515F81103FD4B3B61CDBD5 /* Pods-RSYHPDFImageLoaderDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSYHPDFImageLoaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSYHPDFImageLoaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSYHPDFImageLoaderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34787B211F3D50D5009ED25C /* Build configuration list for PBXProject "RSYHPDFImageLoaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787B511F3D50D5009ED25C /* Debug */,
+				34787B521F3D50D5009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34787B531F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787B541F3D50D5009ED25C /* Debug */,
+				34787B551F3D50D5009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34787B561F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787B571F3D50D5009ED25C /* Debug */,
+				34787B581F3D50D5009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34787B591F3D50D5009ED25C /* Build configuration list for PBXNativeTarget "RSYHPDFImageLoaderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787B5A1F3D50D5009ED25C /* Debug */,
+				34787B5B1F3D50D5009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34787B1E1F3D50D5009ED25C /* Project object */;
+}
