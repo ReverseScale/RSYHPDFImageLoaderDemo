@@ -52,7 +52,9 @@ image = [UIImage yh_imageWithPDFFileNamed:pdfName expectSize:CGSizeMake(SCREEN_W
 ## Optimize 优化
 ### 1.APP 瘦身
 我们对比一下最近设计部门的朋友刚导出的某个图标的一套常规的 PNG 图片和 PDF 类型的图片的大小：
+
 ![](http://og1yl0w9z.bkt.clouddn.com/17-8-11/59023751.jpg)
+
 PDF 文件大小为 7KB
 PNG 三个文件合计大小为 85KB
 对比结果: PDF 类型的文件大概占空间为传统 PNG 类型的 8%（以当前资源为依据，不同资源对比结果可能会有部分出入）。
